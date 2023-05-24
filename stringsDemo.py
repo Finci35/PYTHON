@@ -30,15 +30,24 @@ print(course[::-1]) # iki tane ":" işareti course içindeki tüm karakterleri a
 
 name, surname, age, job = "Bora", "Yılmaz", 32, "mühendis"
 
-# 6- Yukarıda verilen değişkenler ile ekrana aşağıdaki ifadeyi yazdırı.
+# 6- Yukarıda verilen değişkenler ile ekrana aşağıdaki ifadeyi yazdırın.
 #    "Benim adım Bora Yılmaz, Yaşım 32 ve mesleğim mühendis."
 
+print("Benim adım " + name + " " + surname + ", Yaşım " + str(age) + " ve Mesleğim " + job + ".")
+print("Benim adım {} {}, Yaşım {} ve mesleğim {}.".format(name, surname, age, job))
 print(f"Benim adım {name} {surname}, Yaşım {age} ve mesleğim {job}.")
 
-# 7- "Hello world ifadesindeki w harfini "W" ile değiştirin.
+# 7- "Hello world" ifadesindeki w harfini "W" ile değiştirin.
+
+s = "Hello world"
+s = s[0:6] + "W" + s[-4:] # String ifade içindeki bir karakteri direk değiştiremediğimizi için bu şekilde bir kod yazdık.
+
+print(s)
+
 
 # 8- "abc" ifadesini yan yana 3 defa yazdırın.
 
+print("abc " * 3)
 # x = "abc"
 # for i=0, i<3, i+=1
 # if 
