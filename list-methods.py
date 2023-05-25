@@ -12,12 +12,13 @@ val = numbers[4:] # 4. indexten sona kadar yazdır. 4 dahil.
 
 numbers[4] = 40 # 4. indexteki değeri 40 yapar.
 
-# LİSTEYE ELEMAN EKLEMEK
+# ***** LİSTEYE ELEMAN EKLEMEK *****
 numbers.append(49) # en sona 49u ekler.
 numbers.append(59) # en sona 59u ekler.
 
 numbers.insert(3, 79) # 3. index'ten önce 79u ekler. Dolayısıyla yeni 3. index 79 olur.
 numbers.insert(-1, 52) # son elemandan önce 52'yi ekler.
+numbers.insert(len(numbers), 80) # en sona ekler.
 
 # ***** LİSTEDEN ELEMAN SİLMEK *****
 # numbers.pop() # son elemanı siler
@@ -28,17 +29,18 @@ numbers.insert(-1, 52) # son elemandan önce 52'yi ekler.
 #Örneğin listede 10 elemanı iki tane var. Tek hamlede ikisini birden silmez. Soldan başlayarak önce birinciyi, kodu tekrar çalıştırınca sonra ikinciyi siler.
 
 # ***** LİSTENİN TÜM ELEMANLARINI SİLME ***********
-numbers.clear()
+# numbers.clear()
+
 
 # ***** SIRALAMA *****
-numbers.sort() # küçükten büyüğe sıralar.
-numbers.reverse() # elemanların sıralamasını ters çevirir.
+# numbers.sort() # küçükten büyüğe sıralar.
+# numbers.reverse() # elemanların sıralamasını ters çevirir.
 
-letters.sort()
-letters.reverse()
+# letters.sort()
+# letters.reverse()
+
 
 # ***** ELEMAN SAYISINI BULMA *****
-
 print(len(numbers)) # toplam eleman sayısını verir.
 print(len(letters))
 
