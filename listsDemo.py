@@ -25,14 +25,36 @@ cars[-2:] = ["Toyota", "Renault"]
 result = cars
 
 # 9- Listenin üzerine "Audi" ve "Nissan" değerlerini ekleyin.
+result = cars +["Audi", "Nissan"] # Bu işlem cars dizinine eleman eklemez. Bunun için liste metetları kullanılır.
+                                  # Sadece ekrana "Audi" ve "Nissan" elemanlarıyla yazdırır.
 
+# 10- Listenin son elemanını silin.
+del cars[-1]
+result = cars
 
-#
+# 11- Liste elemanlarını tersten yazdırınız.
+result = cars[::-1]
 
-#
+# 12- Aşağıdaki veriler bir liste içinde saklayınız.
 
-#
+        # studentA: Yiğit Bilgi 2010, (70, 60, 70)
+        # studentB: Sena Turan  1999, (80, 80, 70)
+        # studentC: Ahmet Turan 1998, (80, 70, 90)
+        
+studentA = ["Yiğit", "Bilgi", 2010, [70,60,70]]
+studentB = ["Sena", "Turan", 1999, [80,80,70]]
+studentC = ["Ahmet" "Turan", 1998, [80,70,90]]
 
+students = [studentA, studentB, studentC]
+
+result = students
+
+# 13- Liste elemanlarını ekrana yazdırınız.
+students = [studentA, studentB, studentC]
+result = students
+
+# Yiğit Bilgi 9 yaşında ve not ortalaması 66
+result = f"{studentA[0]} {studentA[1]} {2023-studentA[2]} yaşında ve not ortalaması {((studentA[3][0] + studentA[3][1] + studentA[3][2])/3):1.4}"
 
 print(cars)
 print(result)

@@ -48,6 +48,3 @@ print(s)
 # 8- "abc" ifadesini yan yana 3 defa yazdırın.
 
 print("abc " * 3)
-# x = "abc"
-# for i=0, i<3, i+=1
-# if 
