@@ -1,4 +1,4 @@
-message = "Hello There. My name is Fatih"
+message = " Hello There. My name is Fatih "
 
 # message = message.upper() # message değişkeni içindeki tüm karakterleri büyük harf yapar.
 # message = message.lower() # tüm karakterleri küçük harf yapar.
@@ -27,7 +27,7 @@ message = "Hello There. My name is Fatih"
 #                  .replace("ç", "c")
 
 # message = message.center(100) # 100 karakterlik bir alanda message değişkenindeki ifadeyi ortalar.
-message = message.center(50, "*") # 100 karakterlik bir alanda message değişkenindeki ifadeyi ortalar
+# message = message.center(50, "*") # 100 karakterlik bir alanda message değişkenindeki ifadeyi ortalar
                                   # ve sağ ve solundaki boşluklara * koyar.
                                   # **********Hello There. My name is Fatih***********
 
